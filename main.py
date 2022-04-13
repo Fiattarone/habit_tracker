@@ -1,11 +1,11 @@
 import requests
 import datetime as dt
 from datetime import timedelta
-import re
+# import re
 
-pixela_endpoint ="https://pixe.la/v1/users"
-TOKEN = "a_random_token" # add 1 and delete _ for 2nd user
-USER_NAME = "d4v1d" # add 1 for 2nd user
+pixela_endpoint = "https://pixe.la/v1/users"
+TOKEN = "a_random_token"  # add 1 and delete _ for 2nd user
+USER_NAME = "d4v1d"  # add 1 for 2nd user
 
 user_params = {
     "token": TOKEN,
