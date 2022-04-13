@@ -70,4 +70,5 @@ print(temp)
 # response = requests.put(url=temp, headers=headers, json=pixel_put_params)
 
 response = requests.delete(url=temp, headers=headers)
+
 print(response.text)
